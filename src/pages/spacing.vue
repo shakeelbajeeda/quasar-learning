@@ -47,9 +47,9 @@
       i am using quasar for build application
     </div>
     <div class="parent">
-       i am in parent
+       i am in parent div
       <div class="child">
-          i am child
+          i am child div
       </div>
     </div>
   </q-page>
