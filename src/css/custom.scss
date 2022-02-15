@@ -1,0 +1,8 @@
+// app global css in SCSS form
+$test: red;
+.parent {
+  background:$test;
+   div{
+     background: $primary;
+   }
+}
