@@ -1,6 +1,6 @@
 <template>
   <q-page>
-    <q-btn class="q-mt-lg q-mx-lg" color="red" icon="person" label="Profile" />
+    <q-btn class="q-mt-lg q-mx-lg" color="red" icon="person" label="Profile Updated" />
     <q-btn
       rounded
       color="orange"
