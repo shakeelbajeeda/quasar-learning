@@ -62,28 +62,28 @@ const linksList = [
     link: '/spacing'
   },
   {
-    title: 'Discord Chat Channel',
-    caption: 'chat.quasar.dev',
-    icon: 'chat',
-    link: 'https://chat.quasar.dev'
+    title: 'Shadows',
+    caption: 'Box Shadows',
+    icon: 'mail',
+    link: '/shadow'
   },
   {
-    title: 'Forum',
-    caption: 'forum.quasar.dev',
-    icon: 'record_voice_over',
-    link: 'https://forum.quasar.dev'
+    title: 'Visibility',
+    caption: 'Quasar visibility',
+    icon: 'visibility',
+    link: '/visibility'
   },
   {
-    title: 'Twitter',
-    caption: '@quasarframework',
-    icon: 'rss_feed',
-    link: 'https://twitter.quasar.dev'
+    title: 'Layout and Grid',
+    caption: '@quasar layout',
+    icon: 'grid_view',
+    link: '/layout'
   },
   {
-    title: 'Facebook',
-    caption: '@QuasarFramework',
+    title: 'Angvo',
+    caption: 'Angvo template',
     icon: 'public',
-    link: 'https://facebook.quasar.dev'
+    link: '/angvo_template'
   },
   {
     title: 'Quasar Awesome',

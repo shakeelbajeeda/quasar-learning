@@ -1,6 +1,11 @@
 <template>
   <q-page>
-    <q-btn class="q-mt-lg q-mx-lg" color="red" icon="person" label="Profile Updated" />
+    <q-btn
+      class="q-mt-lg q-mx-lg"
+      color="red"
+      icon="person"
+      label="Profile Updated"
+    />
     <q-btn
       rounded
       color="orange"
@@ -34,23 +39,24 @@
         color="red"
         class="q-ml-none q-mr-sm"
       ></q-icon>
-    Delete </q-btn
-    >
+      Delete
+    </q-btn>
     <q-btn class="q-mt-lg bg-orange text-white">
       <q-icon name="help_outline" color="info" class="q-pr-sm"></q-icon>
       Help
     </q-btn>
-    <q-btn class="q-mx-md q-mt-lg text-warning bg-brown-5" label="Verified User">
+    <q-btn
+      class="q-mx-md q-mt-lg text-warning bg-brown-5"
+      label="Verified User"
+    >
       <q-icon color="orange-5" name="verified_user" class="q-pl-xs"></q-icon>
     </q-btn>
     <div class="text-primary q-pa-xl">
       i am using quasar for build application
     </div>
     <div class="parent">
-       i am in parent div
-      <div class="child">
-          i am child div
-      </div>
+      i am in parent div
+      <div class="child">i am child div</div>
     </div>
   </q-page>
 </template>
@@ -62,11 +68,11 @@ export default defineComponent({
 });
 </script>
 <style scoped lang="scss">
-  $test: red;
+$test: red;
 .parent {
-  background:$test;
-   div{
-     background: $primary;
-   }
+  background: $test;
+  div {
+    background: $primary;
+  }
 }
 </style>
