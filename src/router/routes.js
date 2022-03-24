@@ -9,8 +9,20 @@ const routes = [
       { path: 'spacing', component: () => import('pages/spacing.vue') },
       { path: 'shadow', component: () => import('pages/shadow.vue') },
       { path: 'visibility', component: () => import('pages/visibility.vue') },
-      { path: 'layout', component: () => import('pages/layout.vue') },
-      { path: 'angvo_template', component: () => import('pages/angvo_template.vue') }
+      { path: 'Curd', component: () => import('pages/Curd.vue') },
+
+
+
+
+
+
+    ]
+  },
+  {
+    path: '/',
+    component: () => import('layouts/GeneralLayout.vue'),
+    children: [
+      { path: 'Login', component: () => import('pages/Login.vue') },
 
 
 
