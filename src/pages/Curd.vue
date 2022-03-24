@@ -256,17 +256,23 @@ export default defineComponent({
         JSON.stringify(this.student)
       );
       this.is_update = false;
+      Notify.create({
+        type: "info",
+        position: "top",
+        message: "Student Updated",
+        icon: "update",
+      });
       // this.student_data[1]
     },
     add_student() {
       if (
-        this.student.yourname //&&
-        // this.student.fathername &&
-        // this.student.city &&
-        // this.student.province &&
-        // this.student.gender &&
-        // this.student.program &&
-        // this.student.university
+        this.student.yourname &&
+        this.student.fathername &&
+        this.student.city &&
+        this.student.province &&
+        this.student.gender &&
+        this.student.program &&
+        this.student.university
       ) {
         this.student.id = this.id;
         let unreactive_student = JSON.parse(JSON.stringify(this.student));
